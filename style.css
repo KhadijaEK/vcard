@@ -20,7 +20,7 @@ h1, h2{
     font-size: 34px;
     text-align: center;
     margin: 0 auto;
-    padding: 13px;
+    padding: 21px;
     font-weight: bolder;
 }
 
@@ -53,18 +53,18 @@ h1, h2{
     margin: 0 auto;
     position: relative;
     display: flex;
-    background-color: #fbd6d6;
+    background: linear-gradient(30deg,#FF9190, #FDC094);
 }
 
 
 figcaption{
     color: white;
-    font-size: 18px;
-    width: 100%;
-    padding: 10px;
+    font-size: 19px;
+    width: 120%;
     position: relative;
-    margin: 0 auto;
-    font-weight: lighter;
+    left: -10px;
+    padding-top: 20px;
+    font-weight: normal;
 }
 
 .socialbutton{
@@ -73,18 +73,15 @@ figcaption{
     justify-content: space-around;
     margin: O auto;
     position: relative;
-    top: 80px;
-    background-color: green;
+    top: 40px;
 }
 
 .fa{
     display: flex;
     flex-wrap: nowrap;
-    width: 45px;
-    height: 45px;
     border-radius: 50%;
-    justify-content: nowrap;
-    background-color: white;
+    justify-content: center;
+   
 }
 
 .fa-linkedin{
@@ -99,31 +96,30 @@ figcaption{
     color: #0B0742;
 }
 
+
 .download{
     position: relative;
-    top: 110px;
+    top: 100px;
     margin: 0 auto;
     align-items: center;
-
+    text-align: center; /* to center a button! */
 }
 
-button {
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
+#btn {
+
     border-radius: 28px;
     color: #ffffff;
     font-size: 18px;
-    background: #5E72EB;
+    font-weight: bolder;
+    background: linear-gradient(30deg,#FF9190, #FDC094);
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    justify-items: center;
+    border: none;
+    
   }
   
-  button:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+ #btn:hover {
+    background: #FF9190;
     text-decoration: none;
   }
