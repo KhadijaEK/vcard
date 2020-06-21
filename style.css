@@ -17,16 +17,9 @@ body{
 }
 
 
-
-.menu-flottant {
-   background-color: rgb(101, 202, 101);
-   width: 150px;
-   
-}
-
 .vcard{
     position: relative;
-    top: 10px;
+    top: 50px;
     margin: 0 auto;
     background-color: white;
     height:500px;
