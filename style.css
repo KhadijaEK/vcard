@@ -11,11 +11,17 @@ yellow: #FDC094
     box-sizing: content-box;
 }
 
-body{
-    background: linear-gradient(30deg, #5E72EB, #FF9190);
 
+
+/* !js particules canvas */
+#canvas1{
+    background: radial-gradient (#06D6A0, #fcfcfc);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%;
 }
-
 
 .vcard{
     position: relative;
@@ -26,6 +32,7 @@ body{
     width: 300px; 
     border-radius: 15px;
     box-shadow: 13px 13px 21px #0B0742;
+    z-index: 100;
 }
 
 .vcard_header{
@@ -48,7 +55,7 @@ body{
     height: 130px;
     position: relative;
     left: 10%;
-    background: linear-gradient(30deg, #5E72EB, #FF9190);
+    border: none;
     
 }
 
@@ -83,19 +90,11 @@ h2{
 }
 
 
-.fa-linkedin{
-    color: #5E72EB;
-}
-
-.fa-dribbble {
+.fa-linkedin, .fa-skype, .fa-github {
     color: #5E72EB;
     text-decoration: none;
 }
 
-.fa-github {
-    color: #5E72EB;
-    text-decoration: none;
-}
 
 span {
 position: relative;
