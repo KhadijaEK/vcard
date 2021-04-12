@@ -91,7 +91,7 @@ h2{
     flex-wrap: nowrap;
     justify-content: space-around;
     margin: O auto;
-    
+    cursor: pointer;
 }
 
 
@@ -181,7 +181,7 @@ font-size: 13px;
     text-decoration: none;
     justify-items: center;
     border: none;
-    
+    cursor: pointer;
   }
   
  #btn:hover {
