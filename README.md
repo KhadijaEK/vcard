@@ -19,4 +19,4 @@ Create a Vcard (virtual card), a small one page serving as a virtual business ca
 
 
 - I added some javascript particles for the background & a copy paste to the clipboard option for the email.
-- the download CV button was added for design purpose only.
+
