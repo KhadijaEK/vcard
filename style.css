@@ -169,6 +169,7 @@ font-size: 13px;
     margin: 0 auto;
     align-items: center;
     text-align: center; /* to center a button! */
+
 }
 
 #btn {
@@ -182,7 +183,14 @@ font-size: 13px;
     justify-items: center;
     border: none;
     cursor: pointer;
+
   }
+
+#btn:focus{
+        outline: none;
+       
+      
+}
   
  #btn:hover {
     background: #0097BD;
